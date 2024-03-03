@@ -11,9 +11,9 @@ def generate_random_string(length):
 
 @app.route('/')
 def generate_token():
-    url = 'https://api.discord.gx.games/v1/direct-fulfillment'
+    url = 'https://discord.opr.gg/v2/direct-fullfillment'
     headers = {
-        'authority': 'api.discord.gx.games',
+        'authority': 'discord.opr.gg',
         'accept': '*/*',
         'accept-language': 'en-US,en;q=0.9',
         'content-type': 'application/json',
