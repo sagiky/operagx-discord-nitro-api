@@ -11,7 +11,7 @@ def generate_random_string(length):
 
 @app.route('/')
 def generate_token():
-    url = 'https://discord.opr.gg/v2/direct-fullfillment'
+    url = 'https://discord.opr.gg/v2/direct-fulfillment'
     headers = {
         'authority': 'discord.opr.gg',
         'accept': '*/*',
